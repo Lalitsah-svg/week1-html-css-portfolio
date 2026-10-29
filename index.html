@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio showcasing web development, embedded systems, and IoT projects.">
+  <title>Portfolio | Electronics, Embedded Systems & IoT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Portfolio home">LS<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Electronics & Computer Science Student</p>
+        <h1>Building practical ideas with <span>code and electronics.</span></h1>
+        <p class="hero-text">I explore embedded systems, IoT, and software development—turning ideas into working prototypes that solve real problems.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> Curious by design. Practical by nature.</div>
+      </div>
+      <div class="hero-art" aria-label="Decorative circuit-inspired illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="core">
+          <div class="core-mark">LS</div>
+          <span class="core-label">BUILD / TEST / IMPROVE</span>
+        </div>
+        <span class="node node-one"></span><span class="node node-two"></span>
+        <span class="node node-three"></span><span class="node node-four"></span>
+        <span class="art-tag tag-top">EMBEDDED</span>
+        <span class="art-tag tag-bottom">INNOVATION LAB</span>
+      </div>
+    </section>
+
+    <section class="metrics container" aria-label="Portfolio focus areas">
+      <div><strong>01</strong><span>Embedded systems</span></div>
+      <div><strong>02</strong><span>Internet of Things</span></div>
+      <div><strong>03</strong><span>Software projects</span></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="section-content about-layout">
+        <div>
+          <h2>Engineering ideas into reality.</h2>
+        </div>
+        <div class="about-copy">
+          <p>I am an Electronics and Computer Science student interested in the space where hardware meets software. I enjoy experimenting with microcontrollers, sensors, wireless communication, and practical applications.</p>
+          <p>My approach is to start with a simple working version, test it in real conditions, and improve it through iteration. I am continuing to build my skills through hands-on projects and collaborative learning.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-label">02 / SKILLS & INTERESTS</div>
+        <div class="section-content">
+          <h2>A hands-on technical toolkit.</h2>
+          <p class="section-intro">Areas I have explored through coursework and project work.</p>
+          <div class="skill-grid">
+            <article class="skill-card"><span class="skill-icon">01</span><h3>Programming</h3><p>C, JavaScript, Dart, and Flutter fundamentals.</p></article>
+            <article class="skill-card"><span class="skill-icon">02</span><h3>Embedded systems</h3><p>ESP32, microcontrollers, sensors, and hardware integration.</p></article>
+            <article class="skill-card"><span class="skill-icon">03</span><h3>IoT & connectivity</h3><p>Wi-Fi-based monitoring, device interfaces, and sensor data.</p></article>
+            <article class="skill-card"><span class="skill-icon">04</span><h3>Web fundamentals</h3><p>Semantic HTML, responsive CSS, and accessible page structure.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-label">03 / SELECTED PROJECTS</div>
+      <div class="section-content">
+        <div class="projects-heading">
+          <div><h2>Projects built to explore.</h2><p class="section-intro">A selection of hands-on work across IoT and software.</p></div>
+          <span class="project-count">03 PROJECTS</span>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-top"><span class="project-type">IoT · AGRICULTURE</span><span class="project-number">01</span></div>
+            <div class="project-visual farm-visual" role="img" aria-label="Abstract illustration of sensor readings for a smart agriculture project">
+              <div class="sensor-panel"><span>FIELD MONITOR</span><div class="sensor-reading"><i></i><b></b><b></b><b></b></div><div class="sensor-lines"><i></i><i></i><i></i></div></div>
+              <span class="visual-caption">SENSOR NETWORK / 01</span>
+            </div>
+            <div class="project-body"><h3>AgriFin — Smart Agriculture Monitoring</h3><p>An IoT monitoring concept using an ESP32 and environmental sensors to collect field conditions, with cloud reporting and offline-aware design considerations.</p><div class="tag-list"><span>ESP32</span><span>Sensors</span><span>ThingSpeak</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">ROBOTICS · IoT</span><span class="project-number">02</span></div>
+            <div class="project-visual rover-visual" role="img" aria-label="Abstract illustration of a compact planetary rover">
+              <div class="planet"></div><div class="rover"><i class="wheel wheel-a"></i><i class="wheel wheel-b"></i><i class="wheel wheel-c"></i><span class="rover-body"></span><span class="rover-camera"></span><span class="rover-arm"></span></div>
+              <span class="visual-caption">EXPLORATION SYSTEM / 02</span>
+            </div>
+            <div class="project-body"><h3>Planetary Explorer Rover</h3><p>A compact rover prototype combining motor control, a camera stream, and a separate sensor/servo node for remote experimentation.</p><div class="tag-list"><span>ESP32-CAM</span><span>Robotics</span><span>Web control</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-type">SOFTWARE · FLUTTER</span><span class="project-number">03</span></div>
+            <div class="project-visual resistor-visual" role="img" aria-label="Abstract illustration of a resistor and color bands">
+              <div class="resistor"><i></i><i></i><i></i><i></i><b></b></div>
+              <span class="resistor-value">1.0 kΩ <small>±5%</small></span>
+              <span class="visual-caption">COMPONENT CALCULATOR / 03</span>
+            </div>
+            <div class="project-body"><h3>Resistor Pro</h3><p>An offline-first Flutter app concept for converting resistor values to color bands and calculating resistance from color codes.</p><div class="tag-list"><span>Flutter</span><span>Dart</span><span>Offline-first</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div><div class="section-label light-label">04 / CONTACT</div><h2>Have an idea to build?</h2><p>I’m open to learning opportunities, project collaboration, and conversations about technology.</p></div>
+        <div class="contact-links">
+          <a href="https://github.com/Lalitsah-svg" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+          <a href="mailto:lalitsah8509@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="brand" href="#home">LS<span>.</span></a><p>Designed and built with semantic HTML and responsive CSS.</p><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
